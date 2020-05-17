@@ -1,0 +1,17 @@
+
+{
+    "manifest_version": 2,
+  
+    "name": "Paolo Roberto is a torsk",
+    "version": "0.1.4",
+    "description": "Turns every mention of Paolo Roberto on any website into 'torsk'",
+    "content_scripts": [
+      {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at":"document_end"
+  
+    }
+  ]
+  
+  }
